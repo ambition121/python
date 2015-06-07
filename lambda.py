@@ -17,5 +17,6 @@ def fun(x,y):
 print reduce(fun,l)
 
 print '='*20	# 使用lambda这个内建函数
+l=range(1,11)
 g=lambda x,y:x*y
-print g(2,3)
+print reduce(g,l)
